@@ -1,0 +1,148 @@
+.loader {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.header {
+  /* background-color: #8a9eb5; */
+  color: #201f1f; /* Text color */
+  padding: 20px; /* Padding around the header content */
+  text-align: center; /* Center-align the header text */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transition: background-color 0.3s; /* Smooth background color transition */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search_container {
+  align-content: center;
+  text-align: center;
+}
+
+
+.App {
+  background-color: #ffffff; /* Updated background color */
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.box-day {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 130px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: #336dae; /* Updated background color for the header */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  color: white;
+  text-align: center;
+  font-size: smaller;
+}
+
+.box-day p {
+  text-align: center;
+}
+
+.box-day:hover {
+  background-color: #f7d940; /* Box-day background color on hover */
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 14px;
+  margin: 3px;
+  width: 140px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: #2e508b; /* Updated background color for box */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.box:hover {
+  background-color: #f7d940; /* Box background color on hover */
+}
+
+.box-chosen-day {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  text-align: center;
+  width: fit-content;
+  margin-left: 300px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.box h2 {
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-night {
+  background-color: beige;
+}
+
+.box p {
+  margin: 5px 0;
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forecast-container {
+  white-space: nowrap;
+  width: 800px;
+  overflow-x: scroll;
+  border: 15px solid #ffffff;
+  background-color: #336dae; /* Updated background color for the header */
+  border-radius: 1rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+.weather-info span {
+  font-size: 30px;
+}
+
+.weather-info h2 {
+  margin-right: 10px;
+}
+
+.date-forecast-container {
+  width: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Customize the scrollbar */
+.forecast-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.forecast-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.forecast-container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+}

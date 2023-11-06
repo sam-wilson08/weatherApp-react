@@ -1,0 +1,32 @@
+.friendList-container{
+    max-width: fit-content;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.friend-container{
+text-align: center;
+color: rgb(53, 53, 53);
+gap: 4rem;
+border-radius: 2rem;
+background-color: rgb(134, 134, 197);
+padding-left: 2rem;
+padding-right: 2rem;
+cursor: pointer;
+}
+
+.bill-container{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 1rem;
+    max-width: fit-content;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.app-container{
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: beige;
+}
